@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		69183A59268209140006D2FC /* 2_addtwonumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69183A58268209140006D2FC /* 2_addtwonumbers.swift */; };
+		69183A5B2682371D0006D2FC /* 3_lswrc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69183A5A2682371D0006D2FC /* 3_lswrc.swift */; };
 		69D7E247268202CB007A0EB3 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D7E246268202CB007A0EB3 /* main.swift */; };
 		69D7E24E268203B0007A0EB3 /* 1_twosum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D7E24D268203B0007A0EB3 /* 1_twosum.swift */; };
 /* End PBXBuildFile section */
@@ -26,6 +27,8 @@
 
 /* Begin PBXFileReference section */
 		69183A58268209140006D2FC /* 2_addtwonumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2_addtwonumbers.swift; sourceTree = "<group>"; };
+		69183A5A2682371D0006D2FC /* 3_lswrc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3_lswrc.swift; sourceTree = "<group>"; };
+		69183A5D268239C70006D2FC /* 1_twosum.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = 1_twosum.md; sourceTree = "<group>"; };
 		69D7E243268202CB007A0EB3 /* leetlog */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetlog; sourceTree = BUILT_PRODUCTS_DIR; };
 		69D7E246268202CB007A0EB3 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		69D7E24D268203B0007A0EB3 /* 1_twosum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1_twosum.swift; sourceTree = "<group>"; };
@@ -42,6 +45,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		69183A5C268239910006D2FC /* 1_twosum */ = {
+			isa = PBXGroup;
+			children = (
+				69D7E24D268203B0007A0EB3 /* 1_twosum.swift */,
+				69183A5D268239C70006D2FC /* 1_twosum.md */,
+			);
+			path = 1_twosum;
+			sourceTree = "<group>";
+		};
 		69D7E23A268202CB007A0EB3 = {
 			isa = PBXGroup;
 			children = (
@@ -62,8 +74,9 @@
 			isa = PBXGroup;
 			children = (
 				69D7E246268202CB007A0EB3 /* main.swift */,
-				69D7E24D268203B0007A0EB3 /* 1_twosum.swift */,
+				69183A5C268239910006D2FC /* 1_twosum */,
 				69183A58268209140006D2FC /* 2_addtwonumbers.swift */,
+				69183A5A2682371D0006D2FC /* 3_lswrc.swift */,
 			);
 			path = leetlog;
 			sourceTree = "<group>";
@@ -126,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				69D7E24E268203B0007A0EB3 /* 1_twosum.swift in Sources */,
+				69183A5B2682371D0006D2FC /* 3_lswrc.swift in Sources */,
 				69183A59268209140006D2FC /* 2_addtwonumbers.swift in Sources */,
 				69D7E247268202CB007A0EB3 /* main.swift in Sources */,
 			);

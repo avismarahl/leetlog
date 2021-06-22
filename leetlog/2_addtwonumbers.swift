@@ -11,7 +11,7 @@
 
 
 
-public class ListNode {
+fileprivate class ListNode {
     public var val: Int
     public var next: ListNode?
     public init() { self.val = 0; self.next = nil; }
@@ -20,7 +20,7 @@ public class ListNode {
 }
 
 
-func addTwoNumbers(_ l1: ListNode?, _ l2: ListNode?) -> ListNode? {
+fileprivate func addTwoNumbers(_ l1: ListNode?, _ l2: ListNode?) -> ListNode? {
     var carry = 0
     var resHead: ListNode?
     var resCur: ListNode?
