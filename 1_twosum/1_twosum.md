@@ -42,7 +42,7 @@
 
 **Solution:**
 
-A bruteforce&nbsp;<code>O(n<sup>2</sup>)&nbsp;</code>solution involves checking every possible pair to see if they add upto `target`. We are not going for this solution here. 
+A bruteforce <code>O(n<sup>2</sup>)</code> solution involves checking every possible pair to see if they add upto `target`. We are not going for this solution here. 
 
 The solution involves two iterations of `nums` array: 
 
